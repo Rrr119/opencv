@@ -1,0 +1,17 @@
+{
+  "root": "/home/dev/feedback/uid22499",
+  "B": "/home/dev/feedback/uid22499",
+  "sha": "5d0660acfed08650cafec4876b4792a369a20601",
+  "wslDistro": "Ubuntu-26.04",
+  "source": {
+    "owner": "opencv",
+    "repo": "opencv",
+    "sha": "5d0660acfed08650cafec4876b4792a369a20601"
+  },
+  "fork": {
+    "owner": "Rrr119",
+    "repo": "opencv",
+    "cloneUrl": "https://github.com/Rrr119/opencv.git"
+  },
+  "at": "2026-11-17T01:51:27.623Z"
+}

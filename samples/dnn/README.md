@@ -19,6 +19,21 @@ Check `-h` option to know which values are used by default:
 python object_detection.py opencv_fd -h
 ```
 
+### Super-resolution
+
+`super_resolution_module.cpp` / `super_resolution_module.py` demonstrate the
+high-level `dnn_superres` module. They accept a single image, a comma-separated
+list of images (forwarded as one batch, optionally split into chunks) or a
+video file:
+
+```bash
+python super_resolution_module.py --model=ESPCN_x4.onnx --scale=4 \
+    --input=a.png,b.png,c.png --chunk=2 --output=results/
+```
+
+The model format (ONNX, TensorFlow Lite or OpenVINO IR) is selected from the
+file extension automatically.
+
 ### Sample models
 
 You can download sample models using ```download_models.py```. For example, the following command will download network weights for OpenCV Face Detector model and store them in FaceDetector folder:
